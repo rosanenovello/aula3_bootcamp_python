@@ -30,5 +30,5 @@ print(ranking)
 print()
 
 for i, v in enumerate(ranking):
-    print(f"{i} lugar: {v[0]} com {v[1]}")
+    print(f"{i+1} lugar: {v[0]} com {v[1]}")
     sleep(1)
